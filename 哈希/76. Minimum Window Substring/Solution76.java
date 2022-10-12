@@ -12,7 +12,7 @@ A substring is a contiguous sequence of characters within the string.
 
 哈希 双指针 滑动窗口
 * */
-class Solution {
+class Solution76 {
     HashMap<Character, Integer> win;
     HashMap<Character, Integer> need;
     public String minWindow(String s, String t) {
